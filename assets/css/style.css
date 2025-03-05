@@ -1,0 +1,50 @@
+html {
+  font-size: 10px;
+}
+
+#header {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 30rem 0;
+}
+#header nav {
+  height: 5rem;
+}
+#header .header-content h1 {
+  font-size: 9rem;
+}
+#header .header-content h2 {
+  font-size: 6rem;
+}
+#header .header-content a {
+  background-color: #ee0979;
+  transition: background-color 0.5s;
+}
+#header .header-content a:hover {
+  background-color: #ff6bcb;
+}
+
+/* Mobile devices (600px and below) */
+@media (max-width: 600px) {
+  #header {
+    padding: 20rem 0 !important;
+  }
+  #header h1 {
+    font-size: 4rem !important;
+  }
+  #header h2 {
+    font-style: 1.5rem !important;
+  }
+}
+#main #about .about-content h2 {
+  font-size: 6rem;
+}
+#main #about .about-content p {
+  font-size: 2rem;
+}
+
+#footer p {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
